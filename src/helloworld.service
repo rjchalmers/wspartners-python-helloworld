@@ -1,0 +1,12 @@
+[Unit]
+Description=Test application
+
+[Service]
+ExecStart=/usr/bin/helloworld
+User=helloworld
+Group=helloworld
+KillMode=process
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
