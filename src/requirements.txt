@@ -1,2 +1,2 @@
 flask
-jinja2<2.10.1
+jinja2>=2.10.1
